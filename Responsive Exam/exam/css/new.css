@@ -1,0 +1,247 @@
+@charset  "UTF-8";
+
+/*----------------------------------------------
+contents
+----------------------------------------------*/
+body > #header,#newlifeArea,body > #footer_menu,body > #footer_nav,.goToTop,body > #copyright {
+    width: 100%;
+    margin: auto;
+}
+
+#newlife_1st_bg {
+    background: url(../img/background/002.png);
+    height: 30px;
+}
+
+#newlife_container {
+    background: url(../img/background/004.png);
+    margin: -6px 0;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+}
+
+#newlife_2nd_container {
+    background: url(../img/background/001.png) no-repeat,url(../img/background/003.png);
+    background-size: 372px auto,100% auto;
+    background-position: 5.6% 0,0 0;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+#img1 {
+    margin: 20px -2%;
+    float: left;
+}
+
+#img2 {
+    margin: -13px 4%;
+    float: right;
+}
+
+#img3 {
+    width: 89%;
+}
+
+#newlife_2nd_container > ul {
+    display: table;
+    width: 94%;
+    margin: auto;
+}
+
+#newlife_2nd_container ul > li {
+    display: table-cell;
+    width: 25%;
+    background: url(../img/border/001.png) repeat-y;
+    text-align: center;
+}
+
+#newlife_2nd_container .title {
+    text-shadow: -1px -1px #ffffff,1px -1px #ffffff,-1px 1px #ffffff,1px 1px #ffffff,3px 3px rgba(0,0,0,0.1);
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px;
+}
+
+#newlife_2nd_container .title > label {
+    font-size: 11px;
+}
+
+#newlife_2nd_container .desc {
+    width: 85%;
+    margin-top: 7px;
+    padding: 0 9%;
+}
+
+#newlife_2nd_container > table {
+    width: 87%;
+    margin: -2.3% auto;
+}
+
+#newlife_2nd_container > table td {
+    width: 44%;
+    background: url(../img/border/001.png) repeat-y,url(../img/border/002.png) repeat-x;
+    padding: 5% 0;
+    position: relative;
+}
+
+#newlife_2nd_container > table td.two {
+    background: url(../img/border/001.png) repeat-y,url(../img/border/002.png) repeat-x,url(../img/border/001.png) repeat-y right;
+}
+
+#newlife_2nd_container > table td.three {
+    background: url(../img/border/001.png) repeat-y,url(../img/border/002.png) repeat-x,url(../img/border/002.png) repeat-x bottom;
+}
+
+#newlife_2nd_container > table td.four {
+    background: url(../img/border/001.png) repeat-y,url(../img/border/002.png) repeat-x,url(../img/border/001.png) repeat-y right,url(../img/border/002.png) repeat-x bottom;
+}
+
+#newlife_2nd_container > table td center {
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+#newlife_2nd_container > table td center > img {
+    border: 4px solid #fff;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.1);
+    top: 0;
+    left: 0;
+    width: 95%;
+}
+
+#newlife_2nd_container > table td center > img.fade {
+    position: absolute;
+}
+
+.button {
+    background: #f55157;
+    border-radius: 10px;
+    margin: auto;
+    width: 130px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
+.button > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.button2 {
+    background: url(../img/background/005.png) repeat-x #f53b66;
+    background-position: 0 90%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    width: 320px;
+    padding: 6px 0 10px;
+    text-align: center;
+    position: relative;
+}
+
+.button2 label {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button2 > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.balloon {
+    background: url(../img/item/005.png) no-repeat;
+    height: 111px;
+    width: 115px;
+    text-align: center;
+    padding: 5px 0;
+    z-index: 1;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+.balloon > img {
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.balloon1 {
+    padding: 12px 0 5px;
+}
+
+.banner img {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+@media screen and (max-width: 716px) {
+    #img1 {
+       width:100%;
+		margin-left:1px;
+        margin-bottom: 0;
+    }
+
+    #img2 {
+        float: none;
+        width: 85%;
+        margin: auto;
+    }
+
+    #newlife_2nd_container ul > li {
+        padding: 5% 0;
+        display: block;
+        width: 92%;
+        margin: auto;
+        background: url(../img/border/002.png) repeat-x;
+    }
+
+    #newlife_2nd_container .desc {
+        padding: 0;
+        width: 98%;
+    }
+
+    #newlife_2nd_container > table td {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    #newlife_2nd_container > table td.one , #newlife_2nd_container > table td.three {
+        background: url(../img/border/001.png) repeat-y,url(../img/border/002.png)  repeat-x,url(../img/border/001.png) right repeat-y;
+        
+    }
+    
+    .button2 {
+        width: 90%;
+    }
+
+    .button2 label {
+        font-size: 17px;
+    }
+
+    .button2 a {
+        font-size: 14px;
+    }
+
+    @media screen and (max-width: 350px) {
+    #header_logo {
+        width: 36%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+}
